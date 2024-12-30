@@ -1,43 +1,50 @@
-# E-commerce Dashboard
+# React + Vite
 
-A modern, responsive e-commerce administration dashboard built with React. This application provides a comprehensive interface for managing products, orders, and business analytics.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- 📱 Responsive design that works on desktop
-- 🌓 Dark/Light mode support
-- 🔐 User authentication system
-- 📊 Analytics dashboard
-- 📦 Product management
-  - Add new products
-  - Edit existing products
-  - Manage inventory
-- 🔍 Search functionality
-- 🔔 Real-time notifications
-- 👤 User profile management
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Tech Stack
+```
+ecom
+├─ .gitignore
+├─ database.db
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ public
+│  └─ vite.svg
+├─ README.md
+├─ server.cjs
+├─ server.js
+├─ src
+│  ├─ App.jsx
+│  ├─ assets
+│  │  └─ react.svg
+│  ├─ components
+│  │  ├─ Analytics.css
+│  │  ├─ Analytics.jsx
+│  │  ├─ Customers.css
+│  │  ├─ Customers.jsx
+│  │  ├─ Dashboard.css
+│  │  ├─ Dashboard.jsx
+│  │  ├─ Orders.css
+│  │  ├─ Orders.jsx
+│  │  ├─ ProductManagement.jsx
+│  │  ├─ Products.css
+│  │  ├─ Products.jsx
+│  │  ├─ Settings.jsx
+│  │  ├─ Sidebar.css
+│  │  ├─ Sidebar.jsx
+│  │  ├─ TopBar.css
+│  │  └─ TopBar.jsx
+│  ├─ index.css
+│  ├─ main.jsx
+│  └─ styles
+│     └─ main.css
+└─ vite.config.js
 
-- React
-- React Router for navigation
-- CSS for styling
-- Vite for build tooling
-
-## Getting Started
-
-1. Clone the repository
-2. Install dependenciescd
-3. ecom-dashboard
-4. npm install
-
-Start the development server
-5. npm run dev
-
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+```
